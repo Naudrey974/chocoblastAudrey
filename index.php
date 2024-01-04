@@ -32,7 +32,7 @@ switch ($path) {
     case '/mvccyber/roles/update/id':
         updateRoles($bdd);
         break;
-    case '/mvccyber/utilisateurs/add':
+    case '/mvccyber/utilisateur/add':
         addUtilisateur($bdd);
         break;    
     default:

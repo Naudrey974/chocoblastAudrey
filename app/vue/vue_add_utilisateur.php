@@ -20,6 +20,8 @@
         <input type="password" name="password_vérification">
         <label for="image_utilisateur">Enregistrer une image :</label>
         <input type="file" id="image" alt="Login" src="" />
+        <label for="id_roles">Saisir le N° de rôles de l'utilisateur :</label>
+        <input type="text" name="id_roles">
         <input type="submit" value="Ajouter" name="submit">
     </form>
     <p><?=$message?></p>
