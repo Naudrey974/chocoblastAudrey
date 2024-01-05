@@ -12,3 +12,7 @@ function print_info($content, $param = false)
         die;
     }
 }
+function getFileExtension(string $file):string
+{
+    return substr(strrchr($file,'.'),1);
+}

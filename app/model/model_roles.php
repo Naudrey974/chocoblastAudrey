@@ -1,6 +1,6 @@
 <?php
     //méthode pour ajouter un roles en BDD
-    function addRoles($bdd,string $nom):void{
+    function insertRoles($bdd,string $nom):void{
         try {
             $requete = $bdd->prepare('INSERT INTO roles(nom_roles) 
             VALUE (?)');

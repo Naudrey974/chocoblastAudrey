@@ -1,6 +1,6 @@
 <?php
 //fonction pour gérer l'ajout des roles en BDD
-function insertRoles($bdd)
+function addRoles($bdd)
 {
     //stocker les messages d'erreur
     $message = "";
